@@ -1,4 +1,4 @@
-package seleniumLearningv1;
+package v1_seleniumLearning;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
