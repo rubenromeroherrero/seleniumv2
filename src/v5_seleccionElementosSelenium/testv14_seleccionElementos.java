@@ -59,6 +59,7 @@ public class testv14_seleccionElementos {
 
         WebElement title = webDriver.findElement( By.xpath("//*[@id=\"people\"]/div/div/div[3]/div/h3"));
         System.out.println(title.getText());
+        System.out.println(title.getCssValue("font-family"));
 
     }
 
