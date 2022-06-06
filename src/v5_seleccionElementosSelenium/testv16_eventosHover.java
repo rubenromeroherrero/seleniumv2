@@ -20,9 +20,11 @@ public class testv16_eventosHover {
         webDriver.get("http://localhost:9080");
 
         // 1- Evento interacción con el mouse (HOVER)
+        // Primero se busca el elemento con base en su `id`
         WebElement imgHover = webDriver.findElement(By.id("vitamin_a"));
 
         // La simulación del HOVER a través del paquete ACTIONS para simular acciones del ratón
+        // Se crea un objeto Action que contiene las acciones del mouse
         Actions accion = new Actions(webDriver);
         // Creamos un puntero del ratón imaginario que movemos a través del navegador
         // BUILD => Tomar la acción y ejecutarla => PERFORM
